@@ -19,7 +19,7 @@ class TodoEdit extends StatelessWidget {
               child: TextField(
                 // textAlign: TextAlign.center,
                 decoration: const InputDecoration(
-                  hintText: "What do you want to accomplish?",
+                  hintText: "what do you want to get done?",
                   border: InputBorder.none,
                   focusedBorder: InputBorder.none,
                 ),
@@ -37,7 +37,7 @@ class TodoEdit extends StatelessWidget {
               children: [
                 // ignore: deprecated_member_use
                 RaisedButton(
-                  child: const Text('Cancel'),
+                  child: const Text('cancel'),
                   color: Colors.red,
                   textColor: Colors.white,
                   onPressed: () {
@@ -46,7 +46,7 @@ class TodoEdit extends StatelessWidget {
                 ),
                 // ignore: deprecated_member_use
                 RaisedButton(
-                  child: const Text('Update'),
+                  child: const Text('update'),
                   color: Colors.green,
                   textColor: Colors.white,
                   onPressed: () {

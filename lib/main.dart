@@ -10,13 +10,13 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
-  static const String title = 'To Do List;
+  static const String title = 'what do I need to do today?';
 
   const MyApp({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      theme: ThemeData(primarySwatch: Colors.pink),
+      theme: ThemeData(primarySwatch: Colors.lightBlue),
       title: title,
       debugShowCheckedModeBanner: false,
       initialRoute: HomeScreen.id,

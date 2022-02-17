@@ -23,7 +23,7 @@ class TodoScreen extends StatelessWidget {
               child: TextField(
                 // textAlign: TextAlign.center,
                 decoration: const InputDecoration(
-                  hintText: "What do you want to accomplish?",
+                  hintText: "what do you want to do today?",
                   border: InputBorder.none,
                   focusedBorder: InputBorder.none,
                 ),
@@ -41,18 +41,18 @@ class TodoScreen extends StatelessWidget {
               children: [
                 // ignore: deprecated_member_use
                 RaisedButton(
-                  child: const Text('Cancel'),
-                  color: Colors.red,
-                  textColor: Colors.white,
+                  child: const Text('cancel'),
+                  color: Colors.lightBlue,
+                  textColor: Colors.black,
                   onPressed: () {
                     Get.back();
                   },
                 ),
                 // ignore: deprecated_member_use
                 RaisedButton(
-                  child: const Text('Add'),
-                  color: Colors.green,
-                  textColor: Colors.white,
+                  child: const Text('add'),
+                  color: Colors.lightBlue,
+                  textColor: Colors.black,
                   onPressed: () {
                     todoController.todos.add(
                       Todo(
